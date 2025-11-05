@@ -5,7 +5,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/output.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>CRYPGO</title>
+
+    <style>
+        @keyframes slide {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
+        .animate-slide {
+            display: inline-flex;
+            animation: slide 10s linear infinite;
+        }
+    </style>
+
 </head>
 
 <body class="bg-[rgb(0,5,16)]">
@@ -55,23 +76,49 @@
                 <span class="text-[#99e39e]">crypto platforms</span>
             </h2>
 
-            <div class="w-vw">
-                <div class="flex justify-center">
-                    <div>
-                        <img src="images/s1.svg" alt="" />
+            <div class="w-vw overflow-hidden whitespace-nowrap py-4">
+
+                <div class="w-10/12 m-auto justify-center inline-flex animate-slide gap-15">
+                    <div class="flex shrink-0">
+                        <div class="mx-8">
+                            <img class="" src="images/s1.svg" alt="" />
+                        </div>
+                        <div class="mx-8">
+                            <img src="images/s2.svg" alt="" />
+                        </div>
+                        <div class="mx-8">
+                            <img src="images/s3.svg" alt="" />
+                        </div>
+                        <div class="mx-8">
+                            <img src="images/s4.svg" alt="" />
+                        </div>
+                        <div class="mx-8">
+                            <img src="images/s5.svg" alt="" />
+                        </div>
                     </div>
-                    <div>
-                        <img src="images/s2.svg" alt="" />
+
+                    <!-- duplicate -->
+                    <div class="flex shrink-0">
+                        <div  class="mx-8">
+                            <img class="" src="images/s1.svg" alt="" />
+                        </div>
+                        <div class="mx-8">
+                            <img src="images/s2.svg" alt="" />
+                        </div>
+                        <div class="mx-8">
+                            <img src="images/s3.svg" alt="" />
+                        </div>
+                        <div class="mx-8">
+                            <img src="images/s4.svg" alt="" />
+                        </div>
+                        <div class="mx-8">
+                            <img src="images/s5.svg" alt="" />
+                        </div>
                     </div>
-                    <div>
-                        <img src="images/s3.svg" alt="" />
-                    </div>
-                    <div>
-                        <img src="images/s4.svg" alt="" />
-                    </div>
-                    <div>
-                        <img src="images/s5.svg" alt="" />
-                    </div>
+
+
+
+
                 </div>
             </div>
         </section>
@@ -265,68 +312,389 @@
         </section>
 
         <!-- //solution -->
-        <section class="text-white">
-            <div>
-                <h2>We deliver <span>best solution</span></h2>
+        <section class="mt-24 text-white text-center">
+            <div class=" ">
+                <h2>We deliver <span class="text-[#99e39e]">best solution</span></h2>
 
-                <h3>One application with multiple options to give you freedom of buying & selling</h3>
+                <h3 class="text-4xl w-[60%] m-auto pt-4">One application with multiple options to give you freedom of
+                    buying & selling</h3>
             </div>
 
-           <div class="">
             <div
-                class=" mt-20 p-10 bg-[url(../images/cy-bg.svg)] bg-no-repeat bg-center bg-size-[40%] justify-between flex items-center h-[480px] m-auto">
-                <div class=" h-[70%] flex flex-col justify-between">
-                    <div class="flex flex-row-reverse  text-right p-3">
-                        <div>
-                            <img class="rounded-full bg-[#ffffff26] p-2 w-11/12" src="images/hash.svg" alt="">
+                class=" mt-10 bg-[url(../images/cy-bg.svg)] bg-no-repeat bg-center bg-size-[40%] justify-center h-[480px] ">
+                <div class="  justify-between flex items-center h-full w-full m-auto ">
+                    <div class="x h-[70%] w-1/3 flex flex-col justify-between">
+                        <div class="flex flex-row-reverse  text-right p-3">
+                            <div>
+                                <img class="rounded-full bg-[#ffffff26] p-2 w-11/12" src="images/hash.svg" alt="">
+                            </div>
+                            <div class="w-10/12 pr-3">
+                                <p>Planning</p>
+                                <p class="text-sm text-gray-500 ">Map the crypto projects scope with framer template</p>
+                            </div>
                         </div>
-                        <div class="w-10/12 pr-3">
-                            <p>Planning</p>
-                            <p class="text-sm text-gray-500 ">Map the crypto projects scope with framer template</p>
-                        </div>
-                    </div>
-            
-                    <div class="flex flex-row-reverse  text-right p-3">
-                        <div>
-                            <img class="rounded-full bg-[#ffffff26] p-2 w-11/12" src="images/hash.svg" alt="">
-                        </div>
-                        <div class="w-10/12 pr-3">
-                            <p>Planning</p>
-                            <p class="text-sm text-gray-500 ">Build crypto website test for your product and apps</p>
-                        </div>
-                    </div>
-                </div>
-            
-                <div class="w-[230px]">
-                    <img src="images/phone.avif" alt="">
-                </div>
-            
-                <div class=" h-[70%] flex flex-col justify-between">
-                    <div class="flex text-left p-3">
-                        <div>
-                            <img class="rounded-full bg-[#ffffff26] p-2 w-11/12" src="images/hash.svg" alt="">
-                        </div>
-                        <div class="w-10/12 pl-3">
-                            <p>Planning</p>
-                            <p class="text-sm text-gray-500 ">Refine & improve your crypto landing page for better view</p>
+
+                        <div class="flex flex-row-reverse  text-right p-3">
+                            <div>
+                                <img class="rounded-full bg-[#ffffff26] p-2 w-11/12" src="images/prototype-icn.svg"
+                                    alt="">
+                            </div>
+                            <div class="w-10/12 pr-3">
+                                <p>Prototype</p>
+                                <p class="text-sm text-gray-500 ">Build crypto website test for your product and apps
+                                </p>
+                            </div>
                         </div>
                     </div>
-            
-                    <div class="flex text-left p-3">
-                        <div>
-                            <img class="rounded-full bg-[#ffffff26] p-2 w-11/12" src="images/hash.svg" alt="">
+
+                    <div class="w-[235px]">
+                        <img src="images/phone.avif" alt="">
+                    </div>
+
+                    <div class=" h-[70%] w-1/3 flex flex-col justify-between">
+                        <div class="flex text-left p-3">
+                            <div>
+                                <img class="rounded-full bg-[#ffffff26] p-2 w-11/12" src="images/refine-icn.svg" alt="">
+                            </div>
+                            <div class="w-10/12 pl-3">
+                                <p>Refinement</p>
+                                <p class="text-sm text-gray-500 ">Refine & improve your crypto landing page for better
+                                    view</p>
+                            </div>
                         </div>
-                        <div class="w-8/12 pl-3">
-                            <p>Planning</p>
-                            <p class="text-sm text-gray-500 ">Deploy product live and ensure expert support</p>
+
+                        <div class="flex text-left p-3">
+                            <div class="rounded-full bg-[#ffffff26] p-2 h-fit">
+                                <img src="images/scale-icn.svg" alt="">
+                            </div>
+                            <div class="w-9/12 pl-3">
+                                <p>Scale and Support</p>
+                                <p class="text-sm text-gray-500 ">Deploy product live and ensure expert support</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-           </div>
+        </section>
+
+
+        <!-- banner -->
+        <section class="text-white mt-20">
+            <div class="rounded-2xl bg-[#ffffff26] flex h-[200px] items-center p-2 ">
+                <div class="w-3/4 px-6">
+                    <h2 class="text-4xl">Crypgo powered by framer platform</h2>
+                    <p class="pt-2 text-gray-500">Our landing page empower framer developers to have free, safer and
+                        more trustworthy experiences get our template
+                        now and
+                        build your .</p>
+                </div>
+
+                <div
+                    class="bg-[url(../images/banner-bg.svg)] bg-no-repeat bg-center bg-cover flex justify-center items-center w-1/4 h-full">
+                    <button class="bg-[#99e39e] text-black px-6 py-3 rounded-lg text-gray-900 text-2xl">
+                        Explore More
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="text-white mt-0">
+            <div class="flex items-center w-[80%] m-auto">
+                <div class="h-full w-1/2">
+                    <img class="h-full" src="images/coins-pic.svg" alt="">
+                </div>
+
+                <div class="w-1/2 h-full">
+                    <h2>Crypto landing page
+                        <span class="text-[#99e39e]">template</span>
+                    </h2>
+
+                    <h3 class="text-[37px] leading-10 py-2 text-left">Create your cryptocurrency
+                        portfolio today</h3>
+
+                    <p class="text-gray-500 text-sm py-3">Coinbase has a variety of features that make it the best place
+                        to start trading.</p>
+
+                    <div>
+                        <div class="flex items-center gap-3 outline-none">
+                            <img class="rounded-full w-[30px] bg-[#ffffff26] p-2" src="images/manage-icn.svg" alt="">
+                            <p>Manage your portfolio</p>
+                        </div>
+
+                        <hr class="h-px text-gray-500 my-4 m-auto">
+
+                        <div class="flex items-center gap-3 outline-none">
+                            <img class="rounded-full w-[30px] bg-[#ffffff26] p-2" src="images/vault-icn.svg" alt="">
+                            <p>Vault Protection </p>
+                        </div>
+
+                        <hr class="h-px text-gray-500 my-4 m-auto">
+
+                        <div class="flex items-center gap-3 outline-none">
+                            <img class="rounded-full w-[30px] bg-[#ffffff26] p-2" src="images/mobile-icn.svg" alt="">
+                            <p>Money apps</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="text-white">
+            <div class="flex w-[80%] m-auto items-center">
+                <div class="w-1/2">
+                    <h2>Crypto
+                        <span class="text-[#99e39e]">Upgrade</span>
+                    </h2>
+
+                    <h3 class="text-[37px] leading-10 py-2 text-left">Upgrade your crypto business</h3>
+
+                    <p class="text-gray-500 text-sm py-3">Get faster, safer, more affordable cloud object storage with
+                        no centeral point of failure.
+                    </p>
+
+                    <div class="flex w-full justify-between">
+                        <div>
+                            <div class="flex items-center py-2">
+                                <img src="images/check-icn.svg" alt="">
+                                <p class="pl-2">100% Secure</p>
+                            </div>
+                            <div class="flex items-center py-2">
+                                <img src="images/check-icn.svg" alt="">
+                                <p class="pl-2">A fraction of the cost</p>
+                            </div>
+                            <div class="flex items-center py-2">
+                                <img src="images/check-icn.svg" alt="">
+                                <p class="pl-2">More durable</p>
+                            </div>
+                            <div class="flex items-center py-2">
+                                <img src="images/check-icn.svg" alt="">
+                                <p class="pl-2">Easier to use</p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="flex items-center py-2">
+                                <img src="images/check-icn.svg" alt="">
+                                <p class="pl-2">Free figma file</p>
+                            </div>
+                            <div class="flex items-center py-2">
+                                <img src="images/check-icn.svg" alt="">
+                                <p class="pl-2">Powerful in performance</p>
+                            </div>
+                            <div class="flex items-center py-2">
+                                <img src="images/check-icn.svg" alt="">
+                                <p class="pl-2">Designed for crypto</p>
+                            </div>
+                            <div class="flex items-center py-2">
+                                <img src="images/check-icn.svg" alt="">
+                                <p class="pl-2">100% free framer template</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="w-1/2">
+                    <img src="images/btc-chart.avif" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="text-white mt-20">
+            <div class="w-[90%]  p-2 m-auto text-center">
+                <h2>Always by
+                    <span class="text-[#99e39e]">your side</span>
+                </h2>
+
+                <h3 class="text-[30px] leading-10 py-2 ">Be the first to use our Crypgo!</h3>
+
+                <p class="text-gray-500 text-sm py-2">Get faster, safer, more affordable landingpage for your crypto.
+                </p>
+
+                <div
+                    class="flex w-full m-auto  rounded-2xl bg-[#b6b4b426] mt-10 bg-[url(../images/chart-line.svg)] bg-no-repeat bg-bottom bg-contain ">
+                    <div class="flex mb-10 gap-10 w-[80%] m-auto py-6">
+                        <div class=" flex flex-col items-center p-3">
+                            <img class="rounded-full bg-[#ffffff26] p-2" src="images/support-icn.svg" alt="">
+                            <p class="py-2">24/7 Support</p>
+                            <p class="text-sm text-gray-500">Need help? Get your requests solved quickly via support
+                                team.</p>
+                        </div>
+                        <div class=" flex flex-col items-center p-3">
+                            <img class="rounded-full bg-[#ffffff26] p-2" src="images/community-icn.svg" alt="">
+                            <p class="py-2">Community</p>
+                            <p class="text-sm text-gray-500">Join the conversations on our worldwide OKEx communities
+                            </p>
+                        </div>
+                        <div class=" flex flex-col items-center p-3">
+                            <img class="rounded-full bg-[#ffffff26] p-2" src="images/support-icn.svg" alt="">
+                            <p class="py-2">Academy</p>
+                            <p class="text-sm text-gray-500">Learn blockchain and crypto for free with our templates.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- faq -->
+        <section class="text-white mt-20">
+            <div class="text-center">
+                <h2>Popular
+                    <span class="text-[#99e39e]">questions</span>
+                </h2>
+
+                <h3 class="text-[30px] leading-10 py-2 ">Learn more about Crypgo</h3>
+
+                <p class="text-gray-500 text-sm py-2">We accept 100+ cryptocurrencies around the world
+                </p>
+
+                <div>
+                    <div>
+                        <div>
+
+                            <details class="bg-[#b6b4b426] rounded-lg p-4 my-4 group">
+                                <summary
+                                    class="flex justify-between cursor-pointer marker:hidden [&::-webkit-details-marker]:hidden">
+                                    <p>What is Crypgo?</p>
+                                    <span class="transition-transform duration-300 group-open:rotate-45"><i
+                                            class="fa-solid fa-xmark text-[#99e39e] rotate-45"></i></span>
+
+                                </summary>
+                                <p class="text-gray-500 py-3">Crypgo is short for Crypgocurrency, which refers to a type
+                                    of digital or virtual currency that uses Crypgographic
+                                    techniques for secure transactions. It operates on decentralized networks, often
+                                    based on blockchain technology, a
+                                    distributed ledger that records all transactions transparently and immutably.</p>
+                            </details>
+                            <details class="bg-[#b6b4b426] rounded-lg p-4 my-4 group">
+                                <summary
+                                    class="flex justify-between cursor-pointer marker:hidden [&::-webkit-details-marker]:hidden">
+                                    <p>Is crypgo available worldwide?</p>
+                                    <span class="transition-transform duration-300 group-open:rotate-45"><i
+                                            class="fa-solid fa-xmark text-[#99e39e] rotate-45"></i></span>
+
+                                </summary>
+                                <p class="text-gray-500 py-3">Crypgo is short for Crypgocurrency, which refers to a type
+                                    of digital or virtual currency that uses Crypgographic
+                                    techniques for secure transactions. It operates on decentralized networks, often
+                                    based on blockchain technology, a
+                                    distributed ledger that records all transactions transparently and immutably.</p>
+                            </details>
+
+                            <details class="bg-[#b6b4b426] rounded-lg p-4 my-4 group">
+                                <summary
+                                    class="flex justify-between cursor-pointer marker:hidden [&::-webkit-details-marker]:hidden">
+                                    <p>Which cryptocurrencies are supported on Crypgo?</p>
+                                    <span class="transition-transform duration-300 group-open:rotate-45"><i
+                                            class="fa-solid fa-xmark text-[#99e39e] rotate-45"></i></span>
+
+                                </summary>
+                                <p class="text-gray-500 py-3">Crypgo is short for Crypgocurrency, which refers to a type
+                                    of digital or virtual currency that uses Crypgographic
+                                    techniques for secure transactions. It operates on decentralized networks, often
+                                    based on blockchain technology, a
+                                    distributed ledger that records all transactions transparently and immutably.</p>
+                            </details>
+
+                            <details class="bg-[#b6b4b426] rounded-lg p-4 my-4 group">
+                                <summary
+                                    class="flex justify-between cursor-pointer marker:hidden [&::-webkit-details-marker]:hidden">
+                                    <p>Is my personal information supported on Crypgo?</p>
+                                    <span class="transition-transform duration-300 group-open:rotate-45"><i
+                                            class="fa-solid fa-xmark text-[#99e39e] rotate-45"></i></span>
+
+                                </summary>
+                                <p class="text-gray-500 py-3">Crypgo is short for Crypgocurrency, which refers to a type
+                                    of digital or virtual currency that uses Crypgographic
+                                    techniques for secure transactions. It operates on decentralized networks, often
+                                    based on blockchain technology, a
+                                    distributed ledger that records all transactions transparently and immutably.</p>
+                            </details>
+
+                            <details class="bg-[#b6b4b426] rounded-lg p-4 my-4 group">
+                                <summary
+                                    class="flex justify-between cursor-pointer marker:hidden [&::-webkit-details-marker]:hidden">
+                                    <p>Are there any deposit or withdrawal fees?</p>
+                                    <span class="transition-transform duration-300 group-open:rotate-45"><i
+                                            class="fa-solid fa-xmark text-[#99e39e] rotate-45"></i></span>
+
+                                </summary>
+                                <p class="text-gray-500 py-3">Crypgo is short for Crypgocurrency, which refers to a type
+                                    of digital or virtual currency that uses Crypgographic
+                                    techniques for secure transactions. It operates on decentralized networks, often
+                                    based on blockchain technology, a
+                                    distributed ledger that records all transactions transparently and immutably.</p>
+                            </details>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
-    <footer></footer>
+
+    <footer class=" mt-20 text-white flex gap-10 w-[90%] m-auto max-w-[1200px] p-3">
+        <div class=" w-[40%]">
+            <!-- logo -->
+            <div>
+                <img src="" alt="">
+                <h1 class="text-2xl">CRYP<span class="text-[#99e39e]">GO</span></h1>
+            </div>
+
+            <div>
+                <p class="text-sm text-gray-500 py-4">Transform your crypto business with Crypgo Framer, a template
+                    for startups and blockchain services.
+                </p>
+            </div>
+
+            <div class="flex gap-2 py-3">
+                <div class="rounded-full bg-[#ffffff26] p-2">
+                    <i class="fa-brands fa-facebook-f text-[#99e39e]"></i>
+                </div>
+
+                <div class="rounded-full bg-[#ffffff26] p-2">
+                    <i class="fa-brands fa-x-twitter text-[#99e39e]"></i>
+                </div>
+
+                <div class="rounded-full bg-[#ffffff26] p-2">
+                    <i class="fa-brands fa-instagram text-[#99e39e]"></i>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="w-[60%] flex justify-around">
+            <div class=" flex flex-col px-4 text-left gap-2">
+                <h1>Links</h1>
+
+                <a class="text-gray-500 hover:text-[#99e39e]" href="">Features</a>
+                <a class="text-gray-500 hover:text-[#99e39e]" href="">Benefits</a>
+                <a class="text-gray-500 hover:text-[#99e39e]" href="">Services</a>
+                <a class="text-gray-500 hover:text-[#99e39e]" href="">Upgrade</a>
+            </div>
+
+            <div class=" flex flex-col px-4 text-left gap-2">
+
+                <h1>Other pages</h1>
+
+                <a class="text-gray-500 hover:text-[#99e39e]" href="">Error 404</a>
+                <a class="text-gray-500 hover:text-[#99e39e]" href="">Terms and Conditions</a>
+                <a class="text-gray-500 hover:text-[#99e39e]" href="">Privacy Policy</a>
+            </div>
+
+            <div class=" flex flex-col px-4 text-left gap-2">
+
+                <h1>Download app</h1>
+
+                <img src="images/playstore.svg" alt="">
+
+                <img src="images/apple.svg" alt="">
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
